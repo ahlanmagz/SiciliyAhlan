@@ -1,0 +1,75 @@
+####################### Banner #########################
+banner:
+  title : "Inspirasi Emas Santri Muda Bangsa"
+  subtitle : "AhlanMaagz"
+  image : "images/banner.jpg"
+  copyright : "Copyright @ Landing Page - AhlnMagz"
+  button:
+    enable : true
+    label : "About Us"
+    link : "/about-us/"
+
+##################### Social ##########################
+description:
+  content : "Hi I’m AHLAN! My copies are spread across Sabang until Merauke and even Malaysia, Singapore, Thailand, Brunei Darussalam, Qatar, and Australia. I present myself in a unique, direct, and personal approach. AHLAN! Focused on dakwah, creativity, out of the box, and young moslem society."
+      
+
+
+######################### Service #####################
+service:
+  enable : true
+  service_item:
+    # service item loop
+    - title : "It is the most advanced digital marketing and it company."
+      images:
+      - "images/service-1.png"
+      - "images/service-2.png"
+      - "images/service-3.png"
+      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      button:
+        enable : true
+        label : "Check it out"
+        link : "#"
+        
+    # service item loop
+    - title : "It is a privately owned Information and cyber security company"
+      images:
+      - "images/service-1.png"
+      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      button:
+        enable : true
+        label : "Check it out"
+        link : "#"
+        
+    # service item loop
+    - title : "It’s a team of experienced and skilled people with distributions"
+      images:
+      - "images/service-2.png"
+      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      button:
+        enable : true
+        label : "Check it out"
+        link : "#"
+        
+    # service item loop
+    - title : "A company standing different from others"
+      images:
+      - "images/service-3.png"
+      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      button:
+        enable : true
+        label : "Check it out"
+        link : "#"
+        
+################### Screenshot ########################
+screenshot:
+  enable : true
+  title : "Experience the best <br> workflow with us"
+  image : "images/screenshot.svg"
+
+  
+
+##################### Error 404 #####################
+error404:
+  image : "images/404.png"
+  copyright : "404 Not Found by Jennifer Suplee"

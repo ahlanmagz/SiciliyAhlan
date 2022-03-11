@@ -1,0 +1,105 @@
+baseURL = "https://example.com/"
+disqusShortname = "sicily-hugo-theme"
+googleAnalytics = ""
+languageCode = "en-us"
+languageName = "En"
+paginate = "1"
+summaryLength = "15"
+theme = "Sicily-hugo-theme"
+title = "AhlnMagz!"
+[markup.goldmark.renderer]
+unsafe = true
+[[menu.company]]
+URL = "about-us"
+name = "About Us"
+[[menu.company]]
+URL = "quick-start"
+name = "Quick Start"
+[[menu.company]]
+URL = "terms-conditions"
+name = "Terms & Conditions"
+[[menu.main]]
+URL = "about-us"
+name = "About Us"
+weight = 1
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 2
+[[menu.main]]
+URL = "platform"
+name = "E-Magazine"
+weight = 3
+[[menu.main]]
+URL = "faq"
+name = "FAQ"
+weight = 4
+[[menu.product]]
+URL = "pricing"
+name = "Pricing"
+[[menu.product]]
+URL = "platform"
+name = "Platform"
+[[menu.product]]
+URL = "faq"
+name = "FAQ"
+[[menu.product]]
+URL = "privacy-policy"
+name = "Privacy Policy"
+[params]
+author = "OmarKdf"
+contact_form_action = "#"
+description = "This is meta description"
+logo = "images/logo.png"
+logo_width = "200px"
+[params.company]
+address = "Jalan Raya Solo-Semarang Km.45"
+city = "Tengaran, Kab. Semarang"
+country = "Indonesia"
+email = "ahlan12magz@gmail.com"
+phone = "+62899 0907 730"
+[params.navigation_button]
+enable = true
+label = "Contact Us!"
+link = "contact"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/custom/clean-footer.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[params.preloader]
+enable = false
+preloader = ""
+[[params.footer]]
+rol_email = "Pimum@ahlanmagz.com"
+rol_name = "Pimpinan Umum"
+rol_representative = "Falah Muttaqin yak?"
+[[params.footer]]
+rol_email = "Pimred@ahlanmagz.com"
+rol_name = "Pimpinan Redaksi"
+rol_representative = "Daffa Ramadhan Jauhary"
+[[params.footer]]
+rol_email = "Redpel@ahlanmagz.com"
+rol_name = "Redaktur Pelaksana"
+rol_representative = "Akmal Gabriel"
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "https://twitter.com/ahlanmagz"
+title = "twitter"
+[[params.social]]
+icon = "ti-instagram"
+link = "https://instagram.com/ahlanmagz"
+title = "Instagram"
+[[params.social]]
+icon = "ti-facebook"
+link = "https://instagram.com/ahlanmagz"
+title = "Facebook"
